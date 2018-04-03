@@ -180,7 +180,7 @@ int main(int argc, char **argv) {
     //sort
     s = MPI_Wtime();
     sort_local(localNumOfElements[rank], localArray);
-    
+
     //merge. merge odd rank's data into the even one.
     for (int step = 1; step < numberOfProcessors; step <<= 1){
         for (int masterRank = 0; masterRank < numberOfProcessors - step; masterRank += (step << 1)){
