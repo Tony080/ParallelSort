@@ -10,6 +10,11 @@
 
 #define MAIN_PROCESS 0
 #define MERGE_MESSAGE_TAG 0
+
+/* Parallel Sortring with MPI
+ * Author: Chengzhi Hu: https://github.com/Tony-Hu
+ *
+ * */
 static void load(char const *const filename, int *const np, unsigned int **const valsp) {
     int ret;
     int j, n;
