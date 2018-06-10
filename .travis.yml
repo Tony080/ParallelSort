@@ -1,5 +1,5 @@
 language: c
-install: ./install-mpi.sh
+install: sudo apt-get install libopenmpi-dev
 script:
   - make
 before_install:
