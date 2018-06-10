@@ -1,4 +1,4 @@
 language: c
 install: sudo apt-get install libopenmpi-dev
 script:
-  - make
+  - make sort
