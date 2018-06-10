@@ -4,3 +4,4 @@ script:
   - make
 before_install:
   - test -n $CC && unset CC
+  - chmod +x install-mpi.sh
