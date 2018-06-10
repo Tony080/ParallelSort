@@ -1,5 +1,5 @@
 language: c
-install: make get-deps
+install: ./install-mpi.sh
 script:
   - make
 before_install:
