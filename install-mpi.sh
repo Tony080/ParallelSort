@@ -7,5 +7,5 @@ if [ ! -d "$HOME/local/$MPI_IMPL/bin" ]; then
   else
   echo "Found existing MPI 3.1.0"
 fi
-export PATH = $HOME/local/OpenMPI3.1.0/bin;$PATH
+export PATH="$HOME/local/OpenMPI3.1.0/bin;$PATH"
   
