@@ -1,3 +1,5 @@
 language: c
+install:
+  - make
 before_install:
   - test -n $CC && unset CC
