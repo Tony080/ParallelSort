@@ -1,4 +1,5 @@
 language: c
+install: make get-deps
 script:
   - make
 before_install:
