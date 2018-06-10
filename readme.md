@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Tony-Hu/ParallelSort.svg?branch=master)](https://travis-ci.org/Tony-Hu/ParallelSort)
 # Parallel Sorting with MPI<br>
 Author: [Chengzhi Hu](https://github.com/Tony-Hu)
 ## 1. Introduction
